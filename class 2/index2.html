@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typography</title>
+  
+  <!-- গুগল ফন্টস (Poppins এবং Playfair Display) ইমপোর্ট করা হয়েছে -->
+  <link href="https://cdn.imgpile.com/f/O75mpYz_lg.webp" rel="stylesheet" />
+  
+  <style>
+    /* পুরো পেজের ফন্ট (Poppins), প্যাডিং এবং ব্যাকগ্রাউন্ড কালার */
+    body { font-family: '', sans-serif; padding: 40px; background: #fafafa; }
+    
+    /* Main Title: Playfair Display ফন্ট, সাইজ এবং টেক্সট কালার */
+    h1 { font-family: 'Playfair Display', serif; font-size: 48px; color: #222; }
+    
+    /* Subtitle: টেক্সট আপারকেস (সব বড় হাতের অক্ষর) এবং লেটার স্পেসিং */
+    h2 { color: #d9534f; text-transform: uppercase; letter-spacing: 3px; }
+    
+    /* প্যারাগ্রাফ: লাইন হাইট, রঙ এবং সর্বোচ্চ চওড়া (max-width) */
+    p { line-height: 1.7; color: #444; max-width: 600px; }
+    
+    /* প্রথম প্যারাগ্রাফের প্রথম অক্ষরটিকে (Drop Cap) বড় ও বোল্ড করার জন্য সূক্ষ্ম স্টাইলিং */
+    p:first-of-type::first-letter { font-size: 42px; color: #d9534f; font-weight: bold; }
+    
+    /* সাধারণ লিংক কালার */
+    a { color: #457b9d; }
+    
+    /* লিংকের ওপর মাউস নিলে (Hover) টেক্সটের কালার ও আন্ডারলাইন পরিবর্তন */
+    a:hover { color: #e63946; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <!-- প্রধান শিরোনাম -->
+  <h1>The Art of Typography</h1>
+  
+  <!-- সাব-শিরোনাম -->
+  <h2>Introduction</h2>
+  
+  <!-- প্রথম প্যারাগ্রাফ -->
+  <p>Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Good typography enhances the overall professional look of a website.</p>
+  
+  <!-- দ্বিতীয় প্যারাগ্রাফ ও লিংক -->
+  <p>To learn more, <a href="#">click here</a>.</p>
+</body>
+</html>
