@@ -1,0 +1,46 @@
+/* পুরো পেজের গ্লোবাল স্টাইল (গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড, ফ্লেক্সবক্স দিয়ে সেন্টারিং ও মার্জিন রিমুভ) */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* কার্ড কন্টেইনারের স্টাইল (সাদা ব্যাকগ্রাউন্ড, রাউন্ডেড কর্নার, শ্যাডো ও প্যাডিং) */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  text-align: center;
+  max-width: 340px;
+}
+
+/* প্রোফাইল অ্যাভাটার ইমেজের স্টাইল (গোল আকার ও বর্ডার) */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #764ba2;
+}
+
+/* নাম (h1) এবং ট্যাগলাইনের মার্জিন ও কালার স্টাইল */
+h1 { margin: 12px 0 4px; }
+.tag { color: #666; margin-top: 0; }
+
+/* লিস্টের অ্যালাইনমেন্ট */
+ul { text-align: left; }
+
+/* কন্টাক্ট বাটনের স্টাইল (ব্যাকগ্রাউন্ড কালার, প্যাডিং ও হোভার রেডি রাখার জন্য ইনলাইন-ব্লক) */
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 24px;
+  background: #764ba2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}

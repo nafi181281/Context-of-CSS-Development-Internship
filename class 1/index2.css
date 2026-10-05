@@ -1,0 +1,12 @@
+/* পুরো পেজের গ্লোবাল স্টাইল (ব্যাকগ্রাউন্ড কালার, ফন্ট ফ্যামিলি এবং প্যাডিং) */
+body {
+  background-color: #f0f0f0;
+  font-family: times new roman, sans-serif;
+  padding: 40px;
+}
+
+/* প্রধান হেডিংয়ের স্টাইল (রঙ, ফন্ট সাইজ এবং টেক্সট পজিশন) */
+h1 { color: #d9534f; font-size: 48px; text-align: center; }
+
+/* প্যারাগ্রাফের স্টাইল (রঙ, ফন্ট সাইজ, লাইন হাইট এবং টেক্সট পজিশন) */
+p { color: #333; font-size: 18px; line-height: 1.6; text-align: center; }
